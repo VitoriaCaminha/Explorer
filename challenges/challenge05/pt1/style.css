@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+  font-family: 'Staatliches', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 140px;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.formulario {
+  width: 750px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  width: 417px;
+  margin-bottom: 43px;
+}
+
+main {
+  border: 1px solid #e6e6f0;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  padding: 64px 64px 34px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e6e6f0;
+  margin-bottom: 36px;
+}
+
+.dados {
+  display: flex;
+  gap: 20px;
+}
+
+label {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4958;
+  gap: 10px;
+}
+
+input {
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  width: 300px;
+  height: 56px;
+}
+
+span {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #c1bccc;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+}
+
+.mentoria {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  margin-right: 22px;
+}
+
+#data::placeholder {
+  opacity: 0;
+}
+
+#das,
+#ate {
+  width: 140px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  height: 160px;
+  margin-bottom: 366px;
+}
+
+button {
+  width: 608px;
+  height: 55.65px;
+  left: 416px;
+  top: 1456.67px;
+  border: none;
+  background: #ff5374;
+  border-radius: 20px;
+}
