@@ -120,10 +120,6 @@ h3 {
   margin-right: 22px;
 }
 
-#data::placeholder {
-  opacity: 0;
-}
-
 #das,
 #ate {
   width: 140px;
