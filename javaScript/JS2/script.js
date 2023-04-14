@@ -22,3 +22,55 @@ function fazerSuco (fruta1, fruta2) {
 }
 const copo = fazerSuco('banana', 'laranja')
 console.log(copo)
+
+// arrow function
+
+const sayMyName = nome => {
+  console.log(nome)
+}
+
+sayMyName('Vitória')
+
+// callback
+
+function myName (nome) {
+  nome()
+}
+
+myName(function nome () {
+  console.log('Vitória')
+})
+
+// constructor
+function Person (nome) {
+  this.nome = nome
+  this.walk = this.nome + ' está andando'
+  this.walk2 = function () {
+    return this.nome + ' está andando também'
+  }
+}
+
+// Instancias
+const vitoria = new Person('Vitória')
+const joao = new Person('Joao')
+
+console.log(vitoria.walk)
+console.log(joao.walk2())
+
+// type coersion
+console.log('9' + 5)
+// type conversion
+console.log(Number('9') + 5)
+
+// exemple
+let string = '123'
+console.log(Number(string))
+let number = 123
+console.log(String(number))
+
+// criando array com construtor
+
+let myArray = new Array('1', '2', '3')
+let myArray2 = new Array(10)
+console.log(myArray)
+console.log(myArray2)
